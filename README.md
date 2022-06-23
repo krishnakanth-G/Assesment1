@@ -1,4 +1,4 @@
-# Assesment s1
+# Assessment 1
 Hello, my name is Krishnakanth Gunta, and in this document I will describe how I solved all of the questions in the assessment. I executed each question in a separate python/ipynb file and labelled it with the question number as we can see in my github repo.
 
 ## Part 1
