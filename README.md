@@ -12,6 +12,7 @@ First take the above text in to a python dictionary and pick the values of the d
 Figure-1
 
 Question 2:  Here’s the list of reviews of Chrome apps - scraped from Play store. Dataset Link
+
 Problem statement - There are times when a user writes Good, Nice App or any other positive text, in the review and gives 1-star rating. Your goal is to identify the reviews where the semantics of review text does not match rating. Your goal is to identify such ratings where review text is good, but rating is negative so that the support team can point this to users. Deploy it using - Flask/Streamlit etc and share the live link.
 
 The dataset contains many attributes but our main focus should be on review text and stars attributes. First, I cleaned the review data by removing special characters using regular expression, and stop words using NLTK tools. The code snippet for cleaning the reviews is in figure-2.1 
@@ -29,13 +30,19 @@ Question 3: Ranking Data - Understanding the co-relation between keyword ranking
 Suggested questions:
 
 1	Is there any co-relation between short description, long description and ranking? Does the placement of keyword (for example - using a keyword in the first 10 words - have any co-relation with the ranking)?
+
 2	Does APP ID (Also known as package name) play any role in ranking?
+
 3	Any other pattern or good questions that you can think of and answer?
+
 The dataset contains 10 attributes and 3066 records. It is related to ranking of different category of browsers types. There are 7 different categories in keyword (browser). There are 8 different App ID’s. There are 13 and 9 different short and long descriptions respectively. For checking correlation between two variables i am using Chi squares test, the hypothesis of chi squared test is
+
 •	H0: There is no relation between the variables
 •	H1: There is relation between the variables
+
 we can verify hypothesis using P-value that is if the P-value is higher than 0.05, H0 will be accepted otherwise rejected.
 Answers for suggested questions
+
 1.	Is there any co-relation between short description, long description and ranking? Does the placement of keyword (for example - using a keyword in the first 10 words - have any co-relation with the ranking)?
 Ans) There is strong correlation between short description, long description and ranking which is evident from the p-value (0.0) of the chi squared test.
 2.	Does APP ID (Also known as package name) play any role in ranking?
@@ -46,12 +53,14 @@ Ans) The other question which I got when I see the problem is
 A) The most frequent words in long description are web, browser, serach, private, engine, etc. Word cloud of words is shown in figure-3.1
  
 Figure-3.1
+
 •	what are the most frequent words in short description?
 A) The most frequent words in short description are private, browser, amp, etc.
 Word cloud of words is shown in figure-3.2
 
  
 Figure-3.1
+
 •	Are there any common words between short and long description?
 A) From the word clouds for short and long descriptions, we can observe that they have some words in common like browser, private, ad blocker, etc.
 
