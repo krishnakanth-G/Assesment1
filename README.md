@@ -11,7 +11,7 @@ Question 1: Write a regex to extract all the numbers with orange color backgroun
 First take the above text in to a python dictionary and pick the values of the dictionary. Apply the regular expression to each value in the values and select the first integer. Figure-1 depicts the code and output.
 
 <p align="center">
- <img width="200" src="https://github.com/krishnakanth-G/Assesment1/blob/main/img/1.png" alt="img">
+ <img width="500" src="https://github.com/krishnakanth-G/Assesment1/blob/main/img/1.png" alt="img"><br>
  Figure-1
 </p>
 
