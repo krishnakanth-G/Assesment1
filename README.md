@@ -5,7 +5,7 @@
 Hello, my name is Krishnakanth Gunta, and in this document I will describe how I solved all of the questions in the assessment. I executed each question in a separate python/ipynb file and labelled it with the question number.
 
 ## Part 1
-#### Question 1: Write a regex to extract all the numbers with orange color background from the below text in italics.
+### Question 1: Write a regex to extract all the numbers with orange color background from the below text in italics.
 ![alt text](https://github.com/krishnakanth-G/Assesment1/blob/main/img/0.png)
 
 First take the above text in to a python dictionary and pick the values of the dictionary. Apply the regular expression to each value in the values and select the first integer. Figure-1 depicts the code and output.
@@ -17,7 +17,7 @@ First take the above text in to a python dictionary and pick the values of the d
 
 
 
-#### Question 2:  Here’s the list of reviews of Chrome apps - scraped from Play store. <a href="(https://drive.google.com/file/d/1SuiFw4MYxOBlqsRgyXLfch28-gzx8bX6/view)">Dataset link</a> 
+### Question 2:  Here’s the list of reviews of Chrome apps - scraped from Play store. <a href="(https://drive.google.com/file/d/1SuiFw4MYxOBlqsRgyXLfch28-gzx8bX6/view)">Dataset link</a> 
 
 Problem statement - There are times when a user writes Good, Nice App or any other positive text, in the review and gives 1-star rating. Your goal is to identify the reviews where the semantics of review text does not match rating. Your goal is to identify such ratings where review text is good, but rating is negative so that the support team can point this to users. Deploy it using - Flask/Streamlit etc and share the live link.
 
