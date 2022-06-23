@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hello, my name is Krishnakanth Gunta, and in this document I will describe how I solved all of the questions in the assessment. I executed each question in a separate python/ipynb file and labelled it with the question number.
+Hello, my name is Krishnakanth Gunta, and in this document I will describe how I solved all of the questions in the assessment. I executed each question in a separate python/ipynb file and labelled it with the question number as we can see in my github repo.
 
 ## Part 1
 ### Question 1: Write a regex to extract all the numbers with orange color background from the below text in italics.
