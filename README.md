@@ -49,28 +49,26 @@ The dataset contains 10 attributes and 3066 records. It is related to ranking of
 * H0: There is no relation between the variables
 * H1: There is relation between the variables
 
-we can verify hypothesis using P-value that is if the P-value is higher than 0.05, H0 will be accepted otherwise rejected.
+we can verify hypothesis using P-value that is if the P-value is higher than 0.05, H0 will be accepted otherwise rejected.<br>
 Answers for suggested questions
 
-1.	Is there any co-relation between short description, long description and ranking? Does the placement of keyword (for example - using a keyword in the first 10 words - have any co-relation with the ranking)?
-Ans) There is strong correlation between short description, long description and ranking which is evident from the p-value (0.0) of the chi squared test.
-2.	Does APP ID (Also known as package name) play any role in ranking?
-Ans) To know the answer we need regression analysis which estimates parameters in a linear equation that can be used to predict values of one variable based on the other. After analyzing the data, it is found that App ID is playing an important role to provide the rank because the regression score is quite good with the App ID itself.
-3.	Any other pattern or good questions that you can think of and answer?
+1. Is there any co-relation between short description, long description and ranking? Does the placement of keyword (for example - using a keyword in the first 10 words - have any co-relation with the ranking)? <br> Ans) There is strong correlation between short description, long description and ranking which is evident from the p-value (0.0) of the chi squared test.
+2. Does APP ID (Also known as package name) play any role in ranking? <br> Ans) To know the answer we need regression analysis which estimates parameters in a linear equation that can be used to predict values of one variable based on the other. After analyzing the data, it is found that App ID is playing an important role to provide the rank because the regression score is quite good with the App ID itself.
+3. Any other pattern or good questions that you can think of and answer?
 Ans) The other question which I got when I see the problem is
-•	what are the most frequent words in long description?
+* 	what are the most frequent words in long description?
 A) The most frequent words in long description are web, browser, serach, private, engine, etc. Word cloud of words is shown in figure-3.1
  
 Figure-3.1
 
-•	what are the most frequent words in short description?
+* what are the most frequent words in short description?
 A) The most frequent words in short description are private, browser, amp, etc.
 Word cloud of words is shown in figure-3.2
 
  
 Figure-3.1
 
-•	Are there any common words between short and long description?
+* Are there any common words between short and long description?
 A) From the word clouds for short and long descriptions, we can observe that they have some words in common like browser, private, ad blocker, etc.
 
 ## Part 2
