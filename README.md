@@ -6,7 +6,8 @@ Hello, my name is Krishnakanth Gunta, and in this document I will describe how I
 
 ## Part 1
 Question 1: Write a regex to extract all the numbers with orange color background from the below text in italics.
- 
+ ![image](https://user-images.githubusercontent.com/76808023/175207957-77a9a25a-fbc9-4fe8-8306-ab575df052f9.png
+
 First take the above text in to a python dictionary and pick the values of the dictionary. Apply the regular expression to each value in the values and select the first integer. Figure-1 depicts the code and output.
  
 Figure-1
