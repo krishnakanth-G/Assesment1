@@ -17,7 +17,7 @@ First take the above text in to a python dictionary and pick the values of the d
 
 
 
-Question 2:  Here’s the list of reviews of Chrome apps - scraped from Play store. Datset link: https://drive.google.com/file/d/1SuiFw4MYxOBlqsRgyXLfch28-gzx8bX6/view
+Question 2:  Here’s the list of reviews of Chrome apps - scraped from Play store. <a href="(https://drive.google.com/file/d/1SuiFw4MYxOBlqsRgyXLfch28-gzx8bX6/view)">Datset link</a> 
 
 Problem statement - There are times when a user writes Good, Nice App or any other positive text, in the review and gives 1-star rating. Your goal is to identify the reviews where the semantics of review text does not match rating. Your goal is to identify such ratings where review text is good, but rating is negative so that the support team can point this to users. Deploy it using - Flask/Streamlit etc and share the live link.
 
@@ -38,7 +38,7 @@ After cleaning the reviews, Filter the records where star is 1 or 2 to get all t
 After getting the sentiment of the review filter all the records where sentiment is positive and then output the records using streamlit. 
 Live Link: https://share.streamlit.io/krishnakanth-g/review-analysis/main/ReviewAnalysis.py
 
-Question 3: Ranking Data - Understanding the co-relation between keyword rankings with description or any other attribute. Here’s the dataset.
+Question 3: Ranking Data - Understanding the co-relation between keyword rankings with description or any other attribute. Here’s the <a href="https://drive.google.com/file/d/1yuDyU7EjJ8Nai83FDdIF2w4inm17NzBF/view">Datset</a>
 Suggested questions:
 1. Is there any co-relation between short description, long description and ranking? Does the placement of keyword (for example - using a keyword in the first 10 words - have any co-relation with the ranking)?
 2. Does APP ID (Also known as package name) play any role in ranking?
