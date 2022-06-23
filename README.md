@@ -1,13 +1,10 @@
-# Assesment1
-
-## Introduction
-
+# Assesment s1
 Hello, my name is Krishnakanth Gunta, and in this document I will describe how I solved all of the questions in the assessment. I executed each question in a separate python/ipynb file and labelled it with the question number as we can see in my github repo.
 
 ## Part 1
 ### Question 1: Write a regex to extract all the numbers with orange color background from the below text in italics.
 ![alt text](https://github.com/krishnakanth-G/Assesment1/blob/main/img/0.png)
-Ans) First take the above text in to a python dictionary and pick the values of the dictionary. Apply the regular expression to each value in the values and select the first integer. Figure-1 depicts the code and output.
+Ans) First take the above text in to a python dictionary and pick the values of the dictionary. Apply the regular expression to eah value in the values and select the first integer. Figure-1 depicts the code and output.
 
 <p align="center">
  <img width="800" src="https://github.com/krishnakanth-G/Assesment1/blob/main/img/1.png" alt="img"><br>
