@@ -18,14 +18,14 @@ Ans) First take the above text in to a python dictionary and pick the values of 
 Ans) The dataset contains many attributes but our main focus should be on review text and stars attributes. First, I cleaned the review data by removing special characters using regular expression, and stop words using NLTK tools. The code snippet for cleaning the reviews is in figure-2.1 
  
 <p align="center">
- <img width="800" src="https://github.com/krishnakanth-G/Assesment1/blob/main/img/2.1.png" alt="img"><br>
+ <img width="500" src="https://github.com/krishnakanth-G/Assesment1/blob/main/img/2.1.png" alt="img"><br>
  Figure-2.1
 </p>
 
 After cleaning the reviews, Filter the records where star is 1 or 2 to get all the negative reviews. Then apply a sentiment analyzer for each review and find the sentiment using NLTK sentiment analyzer. The code snippet for the sentiment analyzer is in figure 2.2
  
 <p align="center">
- <img width="800" src="https://github.com/krishnakanth-G/Assesment1/blob/main/img/2.2.png" alt="img"><br>
+ <img width="500" src="https://github.com/krishnakanth-G/Assesment1/blob/main/img/2.2.png" alt="img"><br>
  Figure-2.2
 </p>
 
