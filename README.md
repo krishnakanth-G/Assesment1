@@ -38,8 +38,7 @@ Ans) The dataset contains 10 attributes and 3066 records. It is related to ranki
 * H0: There is no relation between the variables
 * H1: There is relation between the variables
 we can verify hypothesis using P-value that is if the P-value is higher than 0.05, H0 will be accepted otherwise rejected.
-
-Answers for suggested questions
+### Answers for suggested questions
 #### 1. Is there any co-relation between short description, long description and ranking? Does the placement of keyword (for example - using a keyword in the first 10 words - have any co-relation with the ranking)? <br> 
 Ans) There is strong correlation between short description, long description and ranking which is evident from the p-value (0.0) of the chi squared test.
 #### 2. Does APP ID (Also known as package name) play any role in ranking? <br> 
