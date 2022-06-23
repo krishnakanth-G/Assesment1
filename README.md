@@ -56,24 +56,22 @@ Answers for suggested questions
 2. Does APP ID (Also known as package name) play any role in ranking? <br> Ans) To know the answer we need regression analysis which estimates parameters in a linear equation that can be used to predict values of one variable based on the other. After analyzing the data, it is found that App ID is playing an important role to provide the rank because the regression score is quite good with the App ID itself.
 3. Any other pattern or good questions that you can think of and answer?<br>
 Ans) The other question which I got when I see the problem is
-* 	what are the most frequent words in long description?
+* 	what are the most frequent words in long description?<br>
 A) The most frequent words in long description are web, browser, serach, private, engine, etc. Word cloud of words is shown in figure-3.1
- 
 <p align="center">
- <img width="800" src="https://github.com/krishnakanth-G/Assesment1/blob/main/img/3.1.png" alt="img"><br>
+ <img width="500" src="https://github.com/krishnakanth-G/Assesment1/blob/main/img/3.1.png" alt="img"><br>
  Figure-3.1
 </p>
 
-* what are the most frequent words in short description?
+* what are the most frequent words in short description? <br>
 A) The most frequent words in short description are private, browser, amp, etc.
 Word cloud of words is shown in figure-3.2
-
- 
-<p align="center">
- <img width="800" src="https://github.com/krishnakanth-G/Assesment1/blob/main/img/3.2.png" alt="img"><br>
+ <p align="center">
+ <img width="500" src="https://github.com/krishnakanth-G/Assesment1/blob/main/img/3.2.png" alt="img"><br>
  Figure-3.2
 </p>
-* Are there any common words between short and long description?
+
+* Are there any common words between short and long description?<br>
 A) From the word clouds for short and long descriptions, we can observe that they have some words in common like browser, private, ad blocker, etc.
 
 ## Part 2
