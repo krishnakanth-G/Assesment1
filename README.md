@@ -69,6 +69,7 @@ Ans) I used a fine-tuned version of Google's T5 model. T5 is a text-to-text mode
  <img width="800" src="https://github.com/krishnakanth-G/Assesment1/blob/main/img/4.png" alt="img"><br>
  Figure-4
 </p>
+
 * Note: The output in figure-4 will be different if we run the code again because I used random sampling of data. 
 
 
