@@ -11,7 +11,7 @@ Ans) First take the above text in to a python dictionary and pick the values of 
  Figure-1
 </p>
 
-### Question 2:  There are times when a user writes Good, Nice App or any other positive text, in the review and gives 1-star rating. Your goal is to identify the reviews where the semantics of review text does not match rating. Your goal is to identify such ratings where review text is good, but rating is negative so that the support team can point this to users. Deploy it using - Flask/Streamlit etc and share the live link. Here’s the list of reviews of Chrome apps - scraped from Play store. <a href="(https://drive.google.com/file/d/1SuiFw4MYxOBlqsRgyXLfch28-gzx8bX6/view)">Dataset link</a> 
+### Question 2:  There are times when a user writes Good, Nice App or any other positive text, in the review and gives 1-star rating. Your goal is to identify the reviews where the semantics of review text does not match rating. Your goal is to identify such ratings where review text is good, but rating is negative so that the support team can point this to users. Deploy it using - Flask/Streamlit etc and share the live link. Here’s the list of reviews of Chrome apps - scraped from Play store. <a href="https://drive.google.com/file/d/1SuiFw4MYxOBlqsRgyXLfch28-gzx8bX6/view">Dataset link</a> 
 Ans) The dataset contains many attributes but our main focus should be on review text and stars attributes. First, I cleaned the review data by removing special characters using regular expression, and stop words using NLTK tools. The code snippet for cleaning the reviews is in figure-2.1 
  
 <p align="center">
